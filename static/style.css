@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: rgb(53, 52, 51);
+  padding: 20px;
+  z-index: 1000;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+#logo img {
+  height: 42px;
+  filter: invert(1);
+  margin-right: 10px;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 2px 20px;
+  font-size: 1.2rem;
+  font-family: 'Yuji Boku', serif;
+  opacity: 1;
+}
+
+#navbar li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 35px;
+}
+
+
+#introSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 400px;
+  background-color: red;
+  font-family: 'Yuji Boku', serif;
+  background: center center/cover no-repeat url('/static/bg.jpg');
+}
+
+#introSection div {
+  font-size: 2.5rem;
+  padding: 8px;
+}
+
+#introSection div.small {
+  font-size: 30px;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 10px 12px;
+
+}
+
+
+.card-box {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img {
+  height: 161px;
+  padding: 3px 5px;
+}
+
+.card-img img {
+  height: inherit;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.card-content {
+  padding: 2px 4px;
+
+}
+
+#missionSection {
+  height: 300px;
+  background-color: white;
+  text-align: center;
+}
+
+#missionSection h2 {
+  text-align: center;
+
+
+}
+
+#missionSection .card {
+  border-radius: 5px;
+  border: 2px solid black;
+  display: inline-block;
+  height: 250px;
+  width: 30%;
+  margin: 16px 23px;
+  padding: 5px;
+  background-color: rgb(255, 226, 217);
+}
+
+#sponsersSection {
+  height: 270px;
+  background-color: rgb(252, 252, 178);
+}
+
+#sponsersSection h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#sponsors {
+  height: 191px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.spImage {
+  height: 80%;
+  margin: 15px 29px;
+  padding: 5px 10px;
+}
+
+footer {
+  height: 70px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}

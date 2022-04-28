@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Yuji+Boku&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+}
+
+h3 {
+    margin: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+}
+
+.myForm {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 68vh;
+}
+
+.myInput {
+    font-size: 20px;
+    border: 2px solid black;
+    outline: none;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 5px 7px;
+    border-radius: 8px;
+    background-color: #353433;
+    color: white;
+    font-size: bold;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #353433;
+    cursor: pointer;
+}
